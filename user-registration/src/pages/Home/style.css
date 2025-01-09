@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 140px;
+}
+
+.card {
+  display: flex;
+  background-color: #401f3e;
+  justify-content: space-between;
+  margin: 12px;
+  padding: 12px;
+  width: 410px;
+  border-radius: 14px;
+
+  & p {
+  font-weight: bold;
+  color: white;
+  }
+
+  & span {
+    font-weight: normal;
+  }
+
+  & button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+  }
+
+  & button:hover {
+    opacity: 0.6;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #401f3e;
+  max-width: 50%;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+form > button {
+  border-radius: 25px;
+  background-color: #759aab;
+  height: 42px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+form > input {
+  border: 1px solid #632e5f;
+  border-radius: 35px;
+  padding: 10px;
+  height: 35px;
+  background-color: #381c36;
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+form > button:hover{
+  opacity: 0.8;
+}
